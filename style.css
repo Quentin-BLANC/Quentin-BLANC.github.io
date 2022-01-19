@@ -1,3 +1,40 @@
 img {
     width: 100%;
 }
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+body.index a.index, body.alimentation a.alimentation, body.banque a.banque, body.transport a.transport {
+    background-color: #04AA6D;
+}
+
+h1 {
+    margin-top: 50px;
+}
+    
