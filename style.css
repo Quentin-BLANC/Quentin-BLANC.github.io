@@ -41,7 +41,7 @@ nav a:hover {
     background-color: #111;
 }
 
-body.index a.index, body.alimentation a.alimentation, body.banque a.banque, body.transport a.transport {
+body.index a.index, body.alimentation a.alimentation, body.banque a.banque, body.transport a.transport, body.apropos a.apropos {
     background-color: #04AA6D;
 }
 
