@@ -14,7 +14,7 @@ img {
 
 nav {
     background-color: #333;
-    padding: 15px;
+    padding: 15px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,6 +35,7 @@ nav a {
     padding: 15px;
     color: white;
     text-decoration: none;
+    font-weight: 600;
 }
 
 nav a.index {
@@ -54,6 +55,10 @@ nav label, nav input {
 }
 
 @media screen and (max-width: 768px) {
+
+    nav {
+        padding: 0;
+    }
     
     nav a {
         display: inline-block;
@@ -64,21 +69,22 @@ nav label, nav input {
         color: white;
         font-size: 2em;
         float: right;
-        margin-right: 1em;
+        margin-top: 6px;
+        margin-right: 15px;
     }
 
     nav ul {
         display: none;
     }
 
-    nav input:checked ~ ul {
-        display: block;
-        text-align: right;
-        margin-right: 1em;
-    }
-
     nav li {
         display: block;
     }
+
+    nav input:checked ~ ul {
+        display: block;
+        text-align: right;
+    }
+
 }
     
