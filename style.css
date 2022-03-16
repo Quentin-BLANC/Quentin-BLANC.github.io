@@ -1,3 +1,7 @@
+body {
+    margin: 0 8px;
+}
+
 h1 {
     margin-top: 80px;
     text-align: center;
@@ -95,8 +99,11 @@ nav label, nav input {
 
 footer {
     background-color: #333;
-    padding: 1px 0;
     box-shadow: 0px 1px 12px;
+    padding-top: 1rem;
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
 
 #slogan {
@@ -109,6 +116,6 @@ footer {
 #contact {
     color: white;
     text-align: right;
-    margin-right: 1rem;
     font-style: italic;
+    margin: 0 1rem 1rem 0;
 }
