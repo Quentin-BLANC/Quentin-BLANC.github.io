@@ -14,8 +14,7 @@ img {
 }
 
 p {
-    font-size: larger;
-    line-height: 2rem;
+    text-align: justify;
 }
 
 .source {
