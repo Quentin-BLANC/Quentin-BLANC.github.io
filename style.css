@@ -21,6 +21,10 @@ p {
     text-align: center;
 }
 
+.titleWithTime {
+    display: flex;
+}
+
 /*navbar*/
 
 nav {
