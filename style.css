@@ -105,7 +105,7 @@ footer {
     max-width: 800px;
     position: relative;
     margin: auto;
-    height: 350px;
+    height: 65vh;
     overflow: hidden;
   }
   .menu {
@@ -133,12 +133,13 @@ footer {
   }
   .slide-img {
     width: 100%;
-    height: 300px;
+    height: 60vh;
     position: absolute;
     top: 0;
     left: 100%;
     z-index: 10;
     transition: left 0s 0.75s;
+    object-fit: contain;
   }
   [id^="slide"]:checked + .slide-img {
     left: 0;
@@ -160,6 +161,12 @@ footer {
     body {
         margin: 0 8px;
     }
+
+    h1 {
+        font-size: medium;
+    }
+
+    /*navbar*/
 
     nav {
         padding: 0;
@@ -191,9 +198,17 @@ footer {
         text-align: right;
     }
 
-    h1 {
-        font-size: medium;
+    /*carousel*/
+
+    .slider-container {
+        height: 35vh;
     }
+
+    .slide-img {
+        height: 30vh;
+    }
+
+    /*autres*/
 
     #imgClassementBanque {
         width: 100%;
