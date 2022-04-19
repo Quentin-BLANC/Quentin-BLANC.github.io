@@ -99,54 +99,6 @@ footer {
     margin: 0 1rem 1rem 0;
 }
 
-/*carousel*/
-
-.slider-container {
-    max-width: 800px;
-    position: relative;
-    margin: auto;
-    height: 65vh;
-    overflow: hidden;
-  }
-  .menu {
-    position: absolute;
-    left: 0;
-    z-index: 11;
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-  }
-  .menu label {
-    cursor: pointer;
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: #ccc;
-    border-radius: 50px;
-    margin: 0 0.2em 1em;
-  }
-  .menu label:hover,.menu label:focus {
-    background: #1c87c9;
-  }
-  .slide-input{
-    opacity: 0;
-  }
-  .slide-img {
-    width: 100%;
-    height: 60vh;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    z-index: 10;
-    transition: left 0s 0.75s;
-    object-fit: contain;
-  }
-  [id^="slide"]:checked + .slide-img {
-    left: 0;
-    z-index: 100;
-    transition: left 0.65s ease-out;
-  }
-
 /*autres*/
 
 #imgClassementBanque {
@@ -196,16 +148,6 @@ footer {
     nav input:checked ~ ul {
         display: block;
         text-align: right;
-    }
-
-    /*carousel*/
-
-    .slider-container {
-        height: 35vh;
-    }
-
-    .slide-img {
-        height: 30vh;
     }
 
     /*autres*/
