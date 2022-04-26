@@ -1,16 +1,17 @@
 /*general*/
 
 body {
-    margin: 0 20%;
+    margin: 15px 20% 0;
 }
 
 h1 {
     text-align: center;
     font-size: 5rem;
+    margin-top: 4rem;
 }
 
 #fairecolo {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 #faire {
@@ -38,14 +39,6 @@ img {
 p {
     text-align: justify;
     line-height: 200%;
-}
-
-.source {
-    text-align: center;
-}
-
-.titleWithTime {
-    display: flex;
 }
 
 /*navbar*/
@@ -125,6 +118,14 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+.source {
+    text-align: center;
+}
+
+.titleWithTime {
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {
