@@ -1,17 +1,33 @@
 /*general*/
 
 body {
+    margin: 0;
+}
+
+main {
     margin: 15px 20% 0;
 }
 
 h1 {
     text-align: center;
     font-size: 5rem;
-    margin-top: 4rem;
 }
 
-#fairecolo {
-    margin: 0;
+#titreAccueil {
+    color: white;
+    font-size: 3rem;
+}
+
+.icones {
+    display: block;
+}
+
+.icone {
+    background-color: #ffffff;
+}
+
+.icone p {
+    text-align: center;
 }
 
 #faire {
@@ -44,13 +60,14 @@ p {
 /*navbar*/
 
 nav {
-    background-color: #333;
+    background-color: black;
     padding: 15px 0;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     box-shadow: 0px 1px 12px;
+    z-index: 80;
 }
 
 nav ul {
@@ -113,13 +130,6 @@ footer {
 
 /*autres*/
 
-#imgClassementBanque {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-
 .source {
     text-align: center;
 }
@@ -128,10 +138,20 @@ footer {
     display: flex;
 }
 
+#imgPageAccueil {
+    width: 100%;
+    background-image: url(images/earth-3628710_1920.jpg);
+    background-size: cover;
+    height: calc(100vh - 15px);
+    position: relative;
+    top: 15px;
+    left: 0;
+}
+
 @media screen and (max-width: 768px) {
 
-    body {
-        margin: 0 8px;
+    main {
+        margin: 15px 8px;
     }
 
     h1 {
@@ -172,7 +192,4 @@ footer {
 
     /*autres*/
 
-    #imgClassementBanque {
-        width: 100%;
-    }
 }
