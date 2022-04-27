@@ -113,10 +113,11 @@ nav label, nav input {
     margin-right: 15rem;
     background-color: #04AA6D;
     border-radius: 10px;
+    padding: 0.5rem 0rem;
 }
 
 .imgIcone {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 0;
 }
 
@@ -179,6 +180,8 @@ footer {
 
 @media screen and (max-width: 768px) {
 
+    /*general*/
+
     main {
         margin: 15px 8px;
     }
@@ -217,6 +220,37 @@ footer {
     nav input:checked ~ ul {
         display: block;
         text-align: right;
+    }
+
+    /*image accueil*/
+
+    #fairecolo {
+        font-size: 1rem;
+    }
+
+    #faire {
+        font-size: 3rem;
+    }
+
+    #colo {
+        font-size: 3rem;
+    }
+
+    #icones {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .icone {
+        width: 33%;
+    }
+
+    .imgIcone {
+        font-size: 1.5rem;
+    }
+
+    .texteIcone {
+        font-size: 0.6rem;
     }
 
     /*autres*/
