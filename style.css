@@ -19,7 +19,7 @@ h2 {
 }
 
 h3 {
-    margin-bottom: 0;
+    margin-top: 3rem;
 }
 
 img {
@@ -29,11 +29,11 @@ img {
 p {
     text-align: justify;
     line-height: 200%;
-    margin-top: 0;
 }
 
 .source {
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 /*navbar*/
