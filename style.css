@@ -22,18 +22,55 @@ h3 {
     margin-top: 3rem;
 }
 
-img {
-    width: 100%;
-}
-
 p {
     text-align: justify;
     line-height: 200%;
 }
 
+img {
+    width: 100%;
+}
+
+.banner {
+    height: 20rem;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.h1Banner {
+    color: white;
+    text-shadow: black 5px 5px 5px;
+    margin-top: 0;
+    padding-top: 8rem;
+}
+
+#bannerAlimentation {
+    background-image: url(images/vegetables-752153_1920.jpg);
+}
+
+#bannerBanque {
+    background-image: url(images/money-2724241_1920.jpg);
+}
+
+#bannerTransport {
+    background-image: url(images/rail-3396952_1920.jpg);
+}
+
+.imgDeco {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6rem;
+}
+
+.imgDeco img {
+    width: 50%;
+    border-radius: 20px;
+    margin: 1rem auto 0;
+}
+
 .source {
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 0;
 }
 
 /*navbar*/
@@ -119,7 +156,7 @@ nav label, nav input {
 }
 
 .icone {
-    width: 10%;
+    width: 10rem;
     margin: 1rem;
     background-color: #04AA6D;
     border-radius: 10px;
@@ -145,7 +182,8 @@ nav label, nav input {
 
 .icone:hover {
     background-color: #6861b3;
-    color: black;
+    transform: scale(1.4);
+    transition: 0.5s;
 }
 
 #creditPhoto {
@@ -226,7 +264,15 @@ footer {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+
+    .imgDeco img {
+        width: 100%;
+    }
+
+    .banner {
+        height: 15rem;
     }
 
     /*navbar*/
