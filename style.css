@@ -223,7 +223,6 @@ footer {
 .titleWithTime {
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
 }
 
 .divBanque {
@@ -249,6 +248,7 @@ footer {
 .divBanque2 img {
     margin: 0 1rem 1rem;
     width: 50%;
+    object-fit: contain;
 }
 
 .divBanque2 p {
