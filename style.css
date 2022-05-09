@@ -56,6 +56,14 @@ img {
     background-image: url(images/rail-3396952_1920.jpg);
 }
 
+#bannerAutres {
+    background-image: url(images/puzzle-2198142_1280.jpg);
+}
+
+#bannerAPropos {
+    background-image: url(images/light-bulb-5644732_1920.jpg);
+}
+
 .imgDeco {
     display: flex;
     flex-direction: column;
