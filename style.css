@@ -259,6 +259,12 @@ footer {
     margin: 0;
 }
 
+/*transport*/
+
+.defilementVelos {
+    font-size: 3rem;
+}
+
 @media screen and (max-width: 768px) {
 
     /*general*/
