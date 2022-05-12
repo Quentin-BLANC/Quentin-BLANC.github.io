@@ -130,7 +130,7 @@ nav label, nav input {
     width: 100%;
     background-image: url(images/earth-3628710_1920.jpg);
     background-size: cover;
-    height: calc(100vh - 15px);
+    height: calc(100vh - 47px);
     position: relative;
     top: 15px;
     left: 0;
