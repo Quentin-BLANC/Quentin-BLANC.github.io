@@ -31,6 +31,7 @@ img {
     height: 20rem;
     background-position: 50%;
     background-size: cover;
+    position: relative;
 }
 
 .h1Banner {
@@ -190,10 +191,13 @@ nav label, nav input {
     transition: 0.5s;
 }
 
-#creditPhoto {
+.creditPhoto {
     color: white;
-    text-align: right;
-    margin: 0;
+    margin-bottom: 0;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /*footer*/
