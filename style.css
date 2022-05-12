@@ -323,6 +323,10 @@ footer {
 
     /*image accueil*/
 
+    #imgPageAccueil {
+        background-position: 50%;
+    }
+
     #fairecolo {
         font-size: 1rem;
     }
