@@ -130,27 +130,25 @@ nav label, nav input {
     width: 100%;
     background-image: url(images/earth-3628710_1920.jpg);
     background-size: cover;
-    height: calc(100vh - 47px);
+    height: calc(100vh - 15px);
     position: relative;
     top: 15px;
     left: 0;
 }
 
-#fairecolo {
-    font-size: 2rem;
+#logoFairecolo {
+    width: 40rem;
+    display: block;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+marquee {
+    font-size: 1.5rem;
     color: white;
-    margin-top: 2rem;
     text-shadow: 1px 1px 5px black;
-}
-
-#faire {
-    font-size: 5rem;
-    color: #04AA6D;
-}
-
-#colo {
-    font-size: 5rem;
-    color: #6861b3;
+    font-weight: bold;
+    margin: 0.4rem 0;
 }
 
 #icones {
@@ -330,16 +328,12 @@ footer {
         background-position: 50%;
     }
 
-    #fairecolo {
+    #logoFairecolo {
+        width: 90%;
+    }
+
+    marquee {
         font-size: 1rem;
-    }
-
-    #faire {
-        font-size: 3rem;
-    }
-
-    #colo {
-        font-size: 3rem;
     }
 
     #icones {
