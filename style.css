@@ -27,6 +27,11 @@ img {
     width: 100%;
 }
 
+:target {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
 .banner {
     height: 20rem;
     background-position: 50%;
@@ -228,11 +233,6 @@ marquee {
 }
 
 /*simulateur*/
-
-#repereSimulateur {
-    position: relative;
-    bottom: 2.5rem;
-}
 
 #simulateur {
     margin: 1rem 0 -2rem;
