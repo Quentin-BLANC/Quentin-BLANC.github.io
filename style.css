@@ -23,6 +23,10 @@ p {
     line-height: 200%;
 }
 
+ul {
+    margin-top: -1rem;
+}
+
 img {
     width: 100%;
 }
