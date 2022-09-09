@@ -1,5 +1,35 @@
 /*general*/
 
+/* tableau entreprises */
+.banklist {
+	font-weight:bold;
+	border-collapse:collapse;
+    margin: auto;
+    width: 100%;
+    height: 80vh;
+    font-size: xx-large;
+}
+.banklist th,.banklist td {
+    padding:5px;
+    text-align: center;
+}
+.banklist th {
+	color:white;
+	text-transform:uppercase;
+	background-color:#949895;
+	border:1px solid #949895;
+	border-bottom-color:white;
+	border-right-color:white;
+}
+.banklist th.last{border-right-color:#949895;}
+.banklist tr.n1{background-color:#48B80E;}
+.banklist tr.n2{background-color:#FFB300;}
+.banklist tr.n3{background-color:#FE4A00;}
+.banklist td a{text-decoration:none; color:black; background-color:transparent;}
+.banklist td.impact{background-image:url(images/banklist-bg-arrow.png); background-repeat:no-repeat; background-position: 10px center;
+padding-left: 70px;}
+.banklist td{border:solid #949895 1px;}
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -21,6 +51,10 @@ h2 {
 p {
     text-align: justify;
     line-height: 200%;
+}
+
+.indisponible {
+    background-color: #f86060;
 }
 
 ul {
@@ -389,5 +423,9 @@ marquee {
 
     #imgLITA {
         width: 100%;
+    }
+
+    .banklist {
+        font-size: medium;
     }
 }

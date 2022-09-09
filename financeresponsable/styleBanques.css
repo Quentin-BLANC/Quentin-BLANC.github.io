@@ -1,0 +1,195 @@
+body { margin:0px; /*background-color:#e6f5ea;*/ font-family: Helvetica, arial, sans-serif; font-size: 12px; margin-left: -25px;}
+img { border: 0;}
+textarea {font-family:arial, Helvetica, sans-serif; font-size: 12px;}
+
+#global { width: 680px; background-color: #FFF; margin: 0 auto; padding: 0 10px; text-align:justify; max-width: 100%; }
+
+#global a{ 
+padding-top:5px;
+padding-bottom:5px;
+text-decoration: underline; color: #E41082; background: url('images/puce-carre-rouge.gif') left no-repeat; padding-left: 25px; }
+#global a:hover { text-decoration: none; }
+
+
+
+h1, h2, h3, p { margin: 0 }
+p { text-align: justify; padding: 5px 0; }
+
+a.lien-rouge { text-decoration: underline; color: #7e0001; }
+a.lien-rouge-plus { text-decoration: underline; color: #7e0001; background: url('images/puce-carre-rouge.gif') center left no-repeat; padding-left: 28px; }
+a.lien-rouge:hover, a.lien-rouge-plus:hover { text-decoration: none; }
+.spacer { margin: 0; visibility: hidden; clear: both; }
+
+
+/*###############################################*/
+/*############ Header / navigation  #############*/
+/*###############################################*/
+
+#header { height: 165px; background: #FFF url('images/popup-header.gif') left no-repeat; margin-bottom: 10px; padding-top: 5px; }
+
+
+
+
+
+/*###############################################*/
+/*############   Contenu#############*/
+/*###############################################*/
+
+h1.titre-grand-rouge {
+	color: #e11279;
+	font-size: 16px;
+	line-height: 16px;
+	letter-spacing: 1px;
+	font-weight: bolder;
+	padding-left: 30px;
+	margin: 15px 0;
+	background-image: url('images/puce-fleches-vert.gif');
+	background-repeat: no-repeat;
+}
+
+h2.titre-puce-vert { color: #447a1c; font-size: 13px; letter-spacing: 1px; padding-left: 28px; background: url('images/puce-carre-vert.gif') no-repeat; margin: 10px 0; }
+#global h2.titre-puce-vert a { text-decoration: none; color: #447a1c; font-size: 13px; background:none; margin:0; padding:0; }
+
+ 
+#liste-actu { width: 650px; } 
+ 
+.ligne-visuel { margin: 15px 0; }
+.ligne-visuel p { width: 200px; text-align: center; }
+.ligne-visuel img { margin: 0; border: 1px dotted #CCC; } 
+
+
+/* Cas o il y aurait 3 visuels */
+.ligne-visuel .visuel-3 { float: left;  margin-left: 10px; }
+
+/* Cas o il y aurait 2 visuels */
+.ligne-visuel .visuel-2 { float: left; margin-left: 84px; }
+* html .ligne-visuel .visuel-2 { float: left; margin-left: 50px; } /* Hack IE6 */
+
+/* Cas o il y aurait 1 seul visuel */
+.ligne-visuel .visuel-1 { float: left; margin-left: 220px; }
+* html .ligne-visuel .visuel-1 { float: left; margin-left: 120px; } /* Hack IE6 */
+
+
+
+/*####################### Toutes les actus ############################*/
+
+
+
+
+/*####################### Zoom sur ############################*/
+
+h1.titre-moyen-vert  { font-size: 15px; color: #17a244; letter-spacing: 1px; padding-left: 35px; background: url('images/puce-fleches-vert.gif') no-repeat; line-height: 12px; margin: 5px 20px;}
+strong { font-size: 13px; }
+h1.texte-moyen-vert{ font-size: 15px; color: #e11279; letter-spacing: 1px; padding-left: 35px; background: url('images/puce-fleches-vert.gif') no-repeat; margin: 5px 20px;}
+
+
+
+/*####################### Fiche entreprise ############################*/
+
+h1.titre-moyen-rouge  { font-size: 15px; color: #e11279; letter-spacing: 1px; padding-left:20px; background: url('images/puce-fleches-vert.gif') no-repeat; line-height: 12px; margin-left:20px; }
+h2.titre-moyen-vert { font-size: 13px; color: #17a244;line-height: 12px; margin: 10px 0 8px 20px;}
+p.groupe-entreprise{margin: 10px 0 8px 20px;}
+#fiche-entreprise { padding: 5px 0 20px 0; }
+
+#txt-fiche-entreprise{ border-left:10px solid #e11279; padding:0 20px 0 10px;}
+#fiche-entreprise table { border-collapse: collapse; width: 640px; margin: 0 auto; border:1px #f4abce solid; max-width: 100vw;}
+th { padding: 5px; text-align: center; font-weight: normal; }
+.nom-entreprise { color: #107f39; font-size: 13px; background: #f9dde7; width: 200px; }
+.fiche-entete { color: #FFF; background: #e11279; }
+.case-niveau { text-align: center; border-left: 1px solid #e11279; border-right: 1px solid #e11279; width: 10vw; padding: 5px 0; }
+.case-commentaire { width: 313px; padding:5px; }
+#fiche-entreprise .ligne-1 { background-color: #fef7f9; }
+#fiche-entreprise .ligne-2 { background-color: #f9dde7; }
+
+#liste-noire { padding: 5px 20px 20px 20px; }
+#liste-noire table { border-collapse: collapse; margin: 0 auto; }
+#liste-noire table caption { width: 305px;  }
+#liste-noire table caption img { margin: 0 5px 0 0; }
+#liste-noire td.liste-noire-titre { padding: 5px; text-align: left; background: #e11279; color: #fff; font-size: 13px; }
+#liste-noire .ligne-1 { background-color: #fef7f9; }
+#liste-noire .ligne-2 { background-color: #f9dde7; }
+img.visuel-entreprise{margin:10px 0 0 20px;max-width:200px;}
+
+/*####################### Fiche produit ############################*/
+#txt-fiche-produit{ border-left:10px solid #e11279; padding:0 20px 0 10px;}
+#txt-fiche-produit a{text-decoration: underline; color: #e11279; background: url('images/puce-carre-rouge.gif') center left no-repeat; padding-left: 28px; zoom:1;}
+#txt-fiche-produit a:hover{ text-decoration: none; }
+.nom-entreprise-marron{ color: #9c6118; font-size: 13px; background: #dac3a4; width: 200px; }
+.fiche-entete-marronf { color: #FFF; background: #9c6118; text-align:center }
+#fiche-entreprise .ligne-marron-1 { background-color: #efe5d7; }
+#fiche-entreprise .ligne-marron-2 { background-color: #dac3a4; }
+.case-marron{text-align: center; border-left: 1px solid #9c6118; width: 100px; padding: 5px 0;  }
+.case-commentaire-marronc { text-align: center; border-left: 1px solid #9c6118; border-right: 1px solid #9c6118; width: 213px; padding: 5px;  }
+.marron{ color: #9c6118; }
+
+#liste-noire .ligne-marron-1 { background-color: #efe5d7; }
+#liste-noire .ligne-marron-2 { background-color: #dac3a4; }
+tr.ligne-liste-noire{background-color:#e11279; color:#fff; text-align:center;}
+
+
+#liste-noire td.case-niveau img{max-width:100px;}
+
+/*########################################## Formulaires ###################################################################*/
+
+/*td.input-td{ width:320px; margin-left:10px; margin-bottom:20px;}
+td.titres-td{ width:130px; text-align:right; font-size:12px; margin-bottom:20px; line-height:20px;}
+table.form-table{ width:460px;}
+input.input-texte{ width:320px; height:20px; border:solid 1px; border-bottom-color:b8e3c5;}*/
+
+#formulaire{ background-image:url('images/fond_formulaire.jpg'); background-repeat:no-repeat; margin:auto; width:483px; height:432px; padding-top:15px; padding-left:22px;}
+form.formulaire{margin:40px 0 30px 0;}
+input.formulaire{background-color:#FFF; border:0; height:20px; width:250px; margin:5px; color:#000; }
+textarea.formulaire-commentaires{background-color:#FFF; border:0; height:100px; width:250px; margin:5px; color:#000; }
+input.formulaire-bouton{ background-image:url(images/btn-valider2.gif); background-repeat:no-repeat; border:0; height:20px; width:70px; margin:20px 0 0 270px; }
+label.lbl{ width: 200px; float: left; margin:8px 0 0 10px; font-size:12px; color:#000; text-align:right;}
+label.lbl-02{ width: 250px; float: left; margin:8px 0 0 10px; font-size:12px; color:#000;}
+select.formulaire{background-color:#FFF; border:0; margin:5px; color:#000; }
+
+.champs-obligatoires{ font-size:10px; color:#000; }
+
+/*########################################## Formulaires-popup2 ###################################################################*/
+input.formulaire-bouton-popup2{
+	background-image:url(images/btn-valider2.gif);
+	background-repeat:no-repeat;
+	border:0;
+	height:25px;
+	width:70px;
+	margin-top: 37px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 270px;
+}
+select.formulaire-popup2{background-color:#FFF; border:0; margin:5px; color:#000; width:250px;  }
+
+/*########################################## Formulaires-popup3 ###################################################################*/
+
+input.formulaire-bouton-popup3{ background-image:url(images/btn-valider2.gif); background-repeat:no-repeat; border:0; height:20px; width:70px; margin:25px 0 0 270px; }
+
+
+/*##################################################################################################
+####################################		CLASS		############################################
+##################################################################################################*/
+.txt-rouge{font-size:10px; color:red;}
+.txt-vert-fonce{color:#107F39;}
+
+/*
+     FILE ARCHIVED ON 06:55:24 Oct 21, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:24:11 Sep 01, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 304.503
+  exclusion.robots: 0.118
+  exclusion.robots.policy: 0.108
+  RedisCDXSource: 6.784
+  esindex: 0.01
+  LoadShardBlock: 281.08 (3)
+  PetaboxLoader3.datanode: 276.634 (4)
+  CDXLines.iter: 14.258 (3)
+  load_resource: 170.929
+  PetaboxLoader3.resolve: 137.454
+*/
