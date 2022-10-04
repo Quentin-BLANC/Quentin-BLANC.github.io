@@ -443,10 +443,11 @@ padding-left: 70px;}
     /*autres*/
 
     #Menu_Autres {
+        list-style: none;
         position: unset;
         margin-left: unset;
         font-size: unset;
-        text-align: unset;
-        line-height: 1.5rem;
+        text-align: center;
+        line-height: 2rem;
     }
 }
