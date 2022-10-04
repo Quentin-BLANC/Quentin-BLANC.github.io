@@ -444,6 +444,7 @@ padding-left: 70px;}
 
     #Menu_Autres {
         list-style: none;
+        margin: 0;
         padding:0;
         position: unset;
         margin-left: unset;
