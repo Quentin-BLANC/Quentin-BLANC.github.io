@@ -16,6 +16,7 @@ h1 {
 
 h2 {
     margin-bottom: 0;
+    text-align: center;
 }
 
 p {
@@ -251,6 +252,7 @@ marquee {
 .titleWithTime {
     display: flex;
     justify-content: center;
+    margin-bottom: -1em;
 }
 
 .divBanque {
@@ -333,6 +335,14 @@ padding-left: 70px;}
 
 #MenuDePages a {
     text-decoration:none;
+}
+
+.autres h2 {
+    text-align: left;
+}
+
+.autres .titleWithTime {
+    justify-content: left;
 }
 
 @media screen and (max-width: 768px) {
