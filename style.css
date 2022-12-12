@@ -249,6 +249,10 @@ marquee {
 
 /*banque*/
 
+.banque h3 {
+    text-align: center;
+}
+
 .titleWithTime {
     display: flex;
     justify-content: center;
