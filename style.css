@@ -349,6 +349,10 @@ padding-left: 70px;}
     justify-content: left;
 }
 
+#trois_parts_obelix {
+    max-width: max-content;
+}
+
 @media screen and (max-width: 768px) {
 
     /*general*/
